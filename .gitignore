@@ -1,0 +1,15 @@
+node_modules/
+out/
+dist/
+.vite/
+*.log
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+coverage/
+playwright-report/
+test-results/
+resources/ffmpeg/*.exe
