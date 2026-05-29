@@ -1,0 +1,36 @@
+appId: com.isaackim.vidforge
+productName: VidForge
+copyright: Copyright (c) 2026 Isaac Kim
+directories:
+  output: dist
+  buildResources: build
+files:
+  - out/**/*
+  - package.json
+  - '!**/{.DS_Store,.git,.github,.vscode,coverage,docs,tests,node_modules/.cache}'
+extraResources:
+  - from: resources/ffmpeg
+    to: ffmpeg
+    filter:
+      - "**/*"
+asar: true
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  # TODO(phase-5): replace default Electron icon with build/icon.ico before v1.0
+  artifactName: ${productName}-${version}-${arch}.${ext}
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: VidForge
+  artifactName: ${productName}-Setup-${version}.${ext}
+portable:
+  artifactName: ${productName}-${version}-portable.${ext}
