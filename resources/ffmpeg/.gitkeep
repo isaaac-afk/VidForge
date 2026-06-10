@@ -1,0 +1,3 @@
+# FFmpeg binaries go here in Phase 1.
+# Download a static GPL build from https://www.gyan.dev/ffmpeg/builds/
+# and drop ffmpeg.exe and ffprobe.exe into this directory.

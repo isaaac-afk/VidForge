@@ -13,3 +13,8 @@ coverage/
 playwright-report/
 test-results/
 resources/ffmpeg/*.exe
+
+# Local test media + saved projects — not version-controlled
+Testvids/
+*.vedit
+*.vedit.autosave
