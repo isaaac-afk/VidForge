@@ -6,7 +6,8 @@ See [VIDEO_EDITOR_TRD.md](VIDEO_EDITOR_TRD.md) for the full technical specificat
 
 ## Status
 
-Phase 1 complete — project create/open/save with media import (probe + thumbnail). Phase 2 (timeline & playback) is next.
+Phase 1 complete — project create/open/save with media import (probe + thumbnail).
+Phase 2 (timeline & playback) is next.
 
 ## Requirements
 
