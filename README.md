@@ -5,7 +5,6 @@ A Windows desktop video editor. Multi-track timeline, FFmpeg-powered import, edi
 See [VIDEO_EDITOR_TRD.md](VIDEO_EDITOR_TRD.md) for the full technical specification.
 
 ## Status
-
 Phase 1 complete — project create/open/save with media import (probe + thumbnail).
 Phase 2 (timeline & playback) is next.
 
