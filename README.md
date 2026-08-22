@@ -1,6 +1,6 @@
 # VidForge
 
-A Windows desktop video edor. Multi-track timeline, FFmpeg-powered import, edit, and export. Ships as a single `.exe`.
+A Windows desktop video editor, Multi-track timeline, FFmpeg-powered import, edit, and export. Ships as a single `.exe`.
 See [VIDEO_EDITOR_TRD.md](VIDEO_EDITOR_TRD.md) for the full technical specification.
 
 ## Status
