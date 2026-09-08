@@ -11,7 +11,7 @@ Phase 2 (timeline & playback) is next.
 
 - Node.js 20+ (developed against 24)
 - npm 10+
-- Windows 10 (1909+) or Windows 11 to run the packaged `.exe`
+- Windows 10 (1909+)/Windows 11 to run the packaged `.exe`
 
 ## Quick start
 
