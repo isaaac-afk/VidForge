@@ -21,7 +21,7 @@ npm run dev          # launch in dev mode with HMR
 npm run package      # build NSIS installer + portable .exe into dist/
 ```
 
-### Dev mode caveat — VS Code integrated terminal
+### Dev mode caveat VS Code integrated terminal
 
 VS Code's extension host sets `ELECTRON_RUN_AS_NODE=1` in the environment and child shells inherit it. With that env var set, `npm run dev` fails because Electron starts as plain Node.js and `require('electron')` no longer returns the API. Before running dev mode from a VS Code terminal:
 
