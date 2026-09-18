@@ -14,7 +14,6 @@ Phase 2 (timeline & playback) is next.
 - Windows 10 (1909+)/Windows 11 to run the packaged `.exe`
 
 ## Quick start
-
 ```powershell
 npm install
 npm run dev          # launch in dev mode with HMR
